@@ -23,6 +23,7 @@
         android:text="@string/appwidget_text"
         android:background="@android:color/transparent" 
         android:layout_gravity="center" 
+        android:textColor="@color/white"     
         android:textSize="100sp" 
         android:textStyle="bold" />   
 
@@ -32,7 +33,7 @@
         android:layout_marginLeft="25dp"      
         android:orientation="vertical">
 
-        <Button android:id="@+id/button_one"
+        <Button android:id="@+id/button_plus"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:text="+"
@@ -41,7 +42,7 @@
             android:textColor="@color/purple"        
             android:layout_marginBottom="8dp" />
 
-        <Button android:id="@+id/button_two"
+        <Button android:id="@+id/button_sub"
             android:layout_width="50dp" 
             android:layout_height="50dp"
             android:text="-"
